@@ -15,5 +15,5 @@
 {% skip_file() if !flag?(:openbsd) %}
 
 lib LibC
-	fun pledge(promises : Char*, execpromises : Char*) : Int
+  fun pledge(promises : Char*, execpromises : Char*) : Int
 end
